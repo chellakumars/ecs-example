@@ -5,7 +5,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('example_write_s3')
 
-bucket = 'projectjz'
+bucket = 'samplebucketecs01'
 key = 'ecs-example/sample.txt'
 local_file_path = 'model/sample.txt'
 
